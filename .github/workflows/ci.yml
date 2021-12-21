@@ -4,13 +4,13 @@ on: [push]
 
 jobs: 
   build:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
       run: echo Hola mundo!
-    - name: run a multi-line script
+    - name: Run a multi-line script
       run: |
         echo Add Other actions to build, maybe test and/or deploy
         echo your project
