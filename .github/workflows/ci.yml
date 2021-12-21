@@ -9,7 +9,7 @@ jobs:
     steps:
     -uses: actions/checkout@v1
     -name: Run a one-line-script
-     run: echo Hola mundo! (one line script)
+     run: echo Hola mundo! one line script
     -name: |
-      echo Other actions to build (maybe test, and/or deploy)
+      echo Other actions to build, maybe test, and/or deploy
       echo your project
